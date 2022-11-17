@@ -108,7 +108,7 @@
             
           </div>
         <div class="row" id="list">
-            <div class="col"><a href="#" target="" class="links">Silahkan klik "Pilih Produk di atas"</a></div>
+            <div class="col"><a href="https://api.whatsapp.com/send/?phone=6289629660686&text=hallo" target="" class="links">Silahkan klik "Pilih Produk di atas"</a></div>
         </div>
         
         <!-- <a href="#" target="" class="links">1000 <i class="bi bi-gem"></i> : Rp 100.000</a> -->
@@ -145,8 +145,16 @@
                     type: "GET",
                     url: `https://script.google.com/macros/s/AKfycbwKQaaCMn40fzvJolEktFVBIui4EPjh_6y5pS3BxV7AtsQ9UU4wLy1bbFuMvR6kGUZz/exec?aksi=read&jenis=${params}`,
                     success: function(data) {
-                        for (let x = 0; x < data.records.length; x++) {
-                            $("#list").append(`<div class="col-md-4"><a href="#" target="" class="links">${data.records[x].nominal} ${data.records[x].icon} (${data.records[x].produk}) : ${formatter.format(data.records[x].hjual)}</a></div>`); 
+                        for (let x = 0; x < data.records.length; x++) {                            
+                            if (data.records[x].status === 'a') {
+                                var link = `https://api.whatsapp.com/send/?phone=6289629660686&text=Assalamualaikum+kak+saya+mau+pesan+${data.records[x].nama}+nya+kak`;
+                                $("#list").append(`<div class="col-md-4"><a href="${link}" target="blank" class="links">${data.records[x].nominal} ${data.records[x].icon} (${data.records[x].produk}) : ${formatter.format(data.records[x].hjual)}</a></div>`);
+                            } else if(data.records[x].status === 'g'){
+                                $("#list").append(`<div class="col-md-4"><a href="#" class="links" disabled>${data.records[x].nominal} ${data.records[x].icon} (${data.records[x].produk}) : Gangguan!!!</a></div>`);
+                            }else {
+                                $("#list").append(`<div class="col-md-4"><a href="#" class="links" disabled>${data.records[x].nominal} ${data.records[x].icon} (${data.records[x].produk}) : ${formatter.format(data.records[x].hjual)}</a></div>`);
+                            }
+                             
                         }
                     },
                     error: function(XMLHttpRequest, textStatus, errorThrown) {
