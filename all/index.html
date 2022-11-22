@@ -51,9 +51,9 @@
                                         for (let x = 0; x < data.records.length; x++) {
                                             if (x === 0) {
                                                 $("#data").append(`<tr><td colspan="2">${data.records[x].kategori}</td></tr>`);
-                                                $("#data").append(`<tr><td>${data.records[x].nama}</td><td>${data.records[x].hjual}</td></tr>`);
+                                                $("#data").append(`<tr><td>${data.records[x].nama}</td><td>${formatter.format(data.records[x].hjual)}</td></tr>`);
                                             }else{
-                                                $("#data").append(`<tr><td>${data.records[x].nama}</td><td>${data.records[x].hjual}</td></tr>`);
+                                                $("#data").append(`<tr><td>${data.records[x].nama}</td><td>${formatter.format(data.records[x].hjual)}</td></tr>`);
                                             }
                                             
                                         }
