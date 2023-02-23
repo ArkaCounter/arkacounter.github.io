@@ -59,6 +59,81 @@
         "nama": "TRI AON 12GB",
         "kelompok": "Voucer TRI AON",
         "harga": "53.000"
+      },
+      {
+        "nama": "OMG 1.5GB/5Hr",
+        "kelompok": "Voucer Telkomsel OMG",
+        "harga": "12.000"
+      },
+      {
+        "nama": "OMG 2.5GB/7Hr",
+        "kelompok": "Voucer Telkomsel OMG",
+        "harga": "20.000"
+      },
+      {
+        "nama": "OMG 4GB/5Hr",
+        "kelompok": "Voucer Telkomsel OMG",
+        "harga": "23.000"
+      },
+      {
+        "nama": "XL 1.5GB/7Hr",
+        "kelompok": "Voucer XL",
+        "harga": "14.000"
+      },
+      {
+        "nama": "XL 2.5GB/7Hr",
+        "kelompok": "Voucer XL",
+        "harga": "17.000"
+      },
+      {
+        "nama": "XL 4GB/7Hr",
+        "kelompok": "Voucer XL",
+        "harga": "21.000"
+      },
+      {
+        "nama": "XL 6GB/7Hr",
+        "kelompok": "Voucer XL",
+        "harga": "26.000"
+      },
+      {
+        "nama": "AXIS 3GB/5Hr",
+        "kelompok": "Voucer AXIS",
+        "harga": "12.000"
+      },
+      {
+        "nama": "AXIS 5GB/7Hr",
+        "kelompok": "Voucer AXIS",
+        "harga": "19.000"
+      },
+      {
+        "nama": "AXIS 6GB/30Hr",
+        "kelompok": "Voucer AXIS",
+        "harga": "29.000"
+      },
+      {
+        "nama": "IM3 1GB/2Hr",
+        "kelompok": "Voucer IM3",
+        "harga": "7.000"
+      },
+      {
+        "nama": "IM3 2.5GB/5Hr",
+        "kelompok": "Voucer IM3",
+        "harga": "13.000"
+      },
+      {
+        "nama": "IM3 7GB/7Hr",
+        "kelompok": "Voucer IM3",
+        "harga": "22.000"
+      },
+      {
+        "nama": "IM3 4GB/30Hr",
+        "kelompok": "Voucer IM3",
+        "harga": "20.000"
+      },
+      {
+        "nama": "IM3 8GB/30Hr",
+        "kelompok": "Voucer IM3",
+        "harga": "32.000"
       }
     ]
   }
