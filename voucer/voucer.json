@@ -1,0 +1,64 @@
+{
+    "data": [
+      {
+        "nama": "TRI 1gb/3hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "7.000"
+      },
+      {
+        "nama": "TRI 1.5gb/1hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "5.000"
+      },
+      {
+        "nama": "TRI 3gb/3hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "11.000"
+      },
+      {
+        "nama": "TRI 3.5gb/5hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "16.000"
+      },
+      {
+        "nama": "TRI 5gb/3hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "15.000"
+      },
+      {
+        "nama": "TRI 6gb/5hr",
+        "kelompok": "Voucer TRI Harian",
+        "harga": "21.000"
+      },
+      {
+        "nama": "TRI 7GB",
+        "kelompok": "Voucer TRI Bulanan (30 Hr)",
+        "harga": "29.000"
+      },
+      {
+        "nama": "TRI 11GB",
+        "kelompok": "Voucer TRI Bulanan (30 Hr)",
+        "harga": "43.000"
+      },
+      {
+        "nama": "TRI 14GB",
+        "kelompok": "Voucer TRI Bulanan (30 Hr)",
+        "harga": "55.000"
+      },
+      {
+        "nama": "TRI AON 6GB",
+        "kelompok": "Voucer TRI AON",
+        "harga": "30.000"
+      },
+      {
+        "nama": "TRI AON 9GB",
+        "kelompok": "Voucer TRI AON",
+        "harga": "42.000"
+      },
+      {
+        "nama": "TRI AON 12GB",
+        "kelompok": "Voucer TRI AON",
+        "harga": "53.000"
+      }
+    ]
+  }
